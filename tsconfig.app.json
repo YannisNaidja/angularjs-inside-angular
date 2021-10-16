@@ -3,7 +3,13 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": [],
+    "paths": {
+      "ResizeSensor" : ["node_modules/css-element-queries/src/ResizeSensor.js"],
+      "ElementQueries": ["node_modules/css-element-queries/src/ElementQueries.js"],
+      "ui.tree" : ["node_modules/angular-ui-tree/dist/angular-ui-tree.js"],
+      "jsPlumb": ["node_modules/jsplumb/dist/js/jsplumb.js"]
+    }
   },
   "files": [
     "src/main.ts",
