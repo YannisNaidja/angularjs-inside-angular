@@ -1,4 +1,4 @@
-Hi, this project displays a way of making an angularJS component working in an angular12 app with the upgrade module from angular.
+Hi, this project displays a way of making an angularJS component works in an angular12 app with the upgrade module from angular.
 
 to run the app:
 
